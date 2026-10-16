@@ -1,0 +1,9 @@
+{
+  "name": "national-way-delivery-logistics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FAST tracking website with direct Gmail sending through a Netlify Function",
+  "dependencies": {
+    "nodemailer": "^6.10.1"
+  }
+}

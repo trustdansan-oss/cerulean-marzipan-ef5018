@@ -1,0 +1,13 @@
+NATIONAL WAY — TWO PHONE TEST
+
+1. Deploy this folder to your existing National Way site.
+2. Confirm it uses the same Supabase project shown in inline.js.
+3. Use only fake test records. Register a shipment on Phone A.
+4. Refresh the same website on Phone B and search the tracking number.
+5. On Phone A, set status to In Transit and save.
+6. Refresh Phone B and verify In Transit.
+7. In Supabase SQL Editor, run the verification query in SUPABASE-SETUP-TEST-ONLY.sql.
+
+If the record is only on Phone A, check the browser console for [National Way sync] errors and confirm the table/policies in the same Supabase project.
+
+SECURITY: SQL policies in the setup file are for fake test data only. Do not enable them for real customer data.
